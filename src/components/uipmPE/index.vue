@@ -176,9 +176,6 @@ export default ({
     this.getHeadquartersData()
   },
   methods: {
-    ...mapActions([
-      'isMove'
-    ]),
     toggleTab(index) {
       this.itemIndex = index
       // console.log(this.$refs.myDiv)
